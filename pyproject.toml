@@ -1,0 +1,7 @@
+[project]
+name = "finapi-sentinel"
+version = "0.1.0"
+dependencies = ["typer[all]", "pyyaml", "pydantic", "rich"]
+
+[project.scripts]
+finapi-sentinel = "finapi_sentinel.cli:app"

@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: Vulnerable Fintech API
+paths:
+  /transactions:
+    post:
+      summary: Create transaction
+      responses:
+        '200': { description: OK }
+  /users:
+    delete:
+      summary: Delete user
+      responses:
+        '200': { description: OK }

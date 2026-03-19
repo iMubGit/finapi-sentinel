@@ -1,0 +1,2 @@
+[console_scripts]
+finapi-sentinel = finapi_sentinel.cli:app
