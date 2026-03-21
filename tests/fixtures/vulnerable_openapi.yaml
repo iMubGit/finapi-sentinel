@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Vulnerable Fintech API
+  version: 1.0.0
+servers:
+  - url: http://api.example.com
+paths:
+  /transactions:
+    post:
+      summary: Create transaction
+      responses:
+        '200': { description: OK }
+  /users:
+    delete:
+      summary: Delete user
+      responses:
+        '200': { description: OK }
+  /transfer:
+    post:
+      summary: Transfer funds
+      responses:
+        '200': { description: OK }

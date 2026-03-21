@@ -1,0 +1,30 @@
+openapi: 3.0.0
+info:
+  title: Safe Fintech API
+  version: 1.0.0
+servers:
+  - url: https://api.example.com
+security:
+  - bearerAuth: []
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+paths:
+  /transactions:
+    post:
+      summary: Create transaction
+      responses:
+        '200':
+          description: OK
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+  /health:
+    get:
+      summary: Health check
+      security: []
+      responses:
+        '200': { description: OK }
