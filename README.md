@@ -4,7 +4,7 @@
 
 Built for fintech backend teams operating under **PCI DSS**, **SOC 2**, and **Nigeria's NDPA** — where silent API security gaps are a regulatory risk, not just a technical one.
 
-
+**Scope:** This tool performs automated screening of OpenAPI specs against known security misconfiguration patterns. Findings should be reviewed by a qualified engineer before any changes are made to a production API.
 
 ## Background
 
@@ -13,7 +13,7 @@ APIs that had never been scanned before go-live, with auth gaps and unsafe endpo
 that only surfaced during audits. By then it's a compliance finding, not a development
 fix.
 
-FinAPI Sentinel is a small tool to catch those issues earlier, at the spec level,
+FinAPI Sentinel is a tool to catch those issues earlier, at the spec level,
 before they reach production.
 
 
